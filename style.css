@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:gilroy ;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+}
+#nav{
+    height: 110px;
+    padding: 0 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+/* } 
+#nav img{
+    height: 37px;
+    margin-right:200px; */
+}
+#nav-prt1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-prt1 h4{
+    margin-right:90px;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: aliceblue;
+}
+#nav-prt2 img{
+    margin-right:90px;
+    font-size: 24px;
+    font-weight: 500;
+}
+#content{
+    width: 100%;
+    height: calc(100% - 110px);
+    position: relative;
+    display: flex;
+    
+}
+#left{
+    width: 35%;
+    height: 100%;
+    padding: 70px 150px;
+}
+
+#left h3{
+    font-size: 25px;
+    margin-bottom: 25px;
+    color: #833b3b;
+    font-weight: 1000;
+}
+
+#left h1{
+    font-size: 65px;
+    margin-bottom: 35px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #e29b9b;
+    
+}
+#left p{
+    font-size: 16px;
+    width: 70%;
+    margin-bottom: 30px;
+    color: #a07c7c;
+
+}
+#left button{
+    background-color: rgba(200, 35, 139, 0.911);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-transform: uppercase;
+}
+
+
+#right{
+    width: 65%;
+    height: 100%;
+    position: relative;
+    padding: 110px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+#right::-webkit-scrollbar{
+    display: none;
+}
+
+.elem{
+    height: 350px;
+    width: 270px;
+    background-color: aliceblue;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(0,0,0,0.3);
+    margin-right: 18px;
+    display: inline-block;
+}
+.elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.elem h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #4d646a;
+    padding: 12px 25px;
+    border-radius: 6px;
+}
+
+.elem h5{
+    position: absolute;
+    bottom: 12%;
+    right: 0;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 12px;
+    padding: 12px 25px;
+    border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
